@@ -1,14 +1,10 @@
+zander_in_centimeters = float(input("length of a zander in centimeters: ")
 
-if pituus >= 140:
-  print("Pääset kaikkiin laitteisiin")
 
-  ika = int(input("Mikä on ikäsi? "))
-  if ika >= 8:
-    print("Pääset kaikkiin laitteisiin")
-  else:
-    print("Pääset kaikkiin paitsi Tulirekeen")
-
-elif pituus >= 100:
-  print("Pääset lasten laitteisiin")
+if length >= 42:
+zander_to_centimeters
+  print("Zander meet s the size limit.")
 else:
-  print("Et pääse vielä mihinkään.")
+  below = 42 - length 
+  
+  
