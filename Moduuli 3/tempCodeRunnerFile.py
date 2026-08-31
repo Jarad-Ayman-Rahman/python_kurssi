@@ -1,10 +1,7 @@
-zander_in_centimeters = float(input("length of a zander in centimeters: ")
+Vuosiluku_olympiavuosi = int(input("Anna vuosi:  "))
 
-
-if length >= 42:
-zander_to_centimeters
-  print("Zander meet s the size limit.")
+if vuosi % 4 == 0 and vuosi != 2020:
+  print("Oli olympiavuosi")
 else:
-  below = 42 - length 
-  
+  print("Ei ollut olympiavuosi")
   
