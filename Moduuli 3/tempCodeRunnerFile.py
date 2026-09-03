@@ -1,7 +1,18 @@
-Vuosiluku_olympiavuosi = int(input("Anna vuosi:  "))
+hyttiluokka = (input("Anna laivan hyttiluokka (LUX, A, B, C) "))
 
-if vuosi % 4 == 0 and vuosi != 2020:
-  print("Oli olympiavuosi")
+if hyttiluokka == "LUX":
+  print("LUX on pevekkeellinen hytti yläkannella.")
+
+elif hyttiluokka == "A":
+  print("A on ikkunnallinen hytti autokannen yläpuolella.")
+
+elif hyttiluokka == "B":
+  print("B on ikkunaton hytti autokannen alapuolella.")
+
+elif hyttiluokka == "C":
+  print("C on ikkunaton hytti autokannen alapuolella.")
+
+
+
 else:
-  print("Ei ollut olympiavuosi")
-  
+  print("Virheellinen hyttiluokka.")
