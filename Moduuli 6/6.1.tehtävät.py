@@ -1,5 +1,14 @@
-def display_invoice(username, amount, due_date):
-  print(f"Hello {username}")
-  print(f"Your bill of ${amount:.2f} is due: {due_date}")
+import random
 
-display_invoice("BroCode", 42.50, "01/01" )
+def heita_noppaa():
+  return random.randint(1, 6)
+
+while True:
+  luku = heita_noppaa()
+  print(luku)
+  if luku == 6:
+    break
+
+
+
+  
