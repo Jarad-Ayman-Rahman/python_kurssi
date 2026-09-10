@@ -9,7 +9,7 @@ while yritykset < 5:
 
     if tunnus == kayttajatunnus and salasana_syote == salasana:
         print("Tervetuloa")
-        break
+    
 
     yritykset += 1
 
