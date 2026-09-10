@@ -10,7 +10,7 @@ for i in range(N):
     x = random.uniform(-1, 1)
     y = random.uniform(-1, 1)
     
-    # Tarkistetaan, onko piste yksikköympyrän sisällä
+ 
     if x*x + y*y < 1:
         n = n + 1
 
