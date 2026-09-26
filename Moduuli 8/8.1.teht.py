@@ -4,7 +4,7 @@ yhteys = mysql.connector.connect(
     host="localhost",
     port=3307,
     user="pythonuser",
-    password="python123",
+    password="",
     database="airports"
 )
 
